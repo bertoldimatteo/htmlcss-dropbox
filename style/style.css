@@ -16,12 +16,26 @@ h1 {
     font-size: 85px;
 }
 
+h2 {
+    font-size: 48px;
+}
+
 .clearfix::after {
     content: "";
     display: block;
     clear: both;
 }
 
+.large-section {
+    max-width: 1440px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.middle-section {
+    max-width: 1080px;
+    margin: auto;
+}
 /*------------ 
   typography
 ------------ */
@@ -68,14 +82,8 @@ nav img, nav a, nav button {
      main
 ------------ */
 
-.first-section-bgc {
+.large-section-bgc {
     background-color: #b4d0e7;
-}
-
-.first-section {
-    max-width: 1440px;
-    margin: auto;
-    padding-top: 100px;
 }
 
 .col-1-section {
@@ -120,4 +128,21 @@ nav img, nav a, nav button {
 
 .col-1-left i {
     margin: 50px 0 ;
+}
+
+.title-plan {
+    margin-top: 100px;
+
+}
+
+.title-plan h2 {
+    margin-top: 200px;
+}
+
+.title-plan form {
+    margin-top: 50px;
+}
+
+.title-plan form label {
+    margin-right: 30px;
 }

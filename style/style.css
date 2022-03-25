@@ -12,6 +12,16 @@
    commons
 ------------ */
 
+h1 {
+    font-size: 85px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 /*------------ 
   typography
 ------------ */
@@ -52,4 +62,30 @@ nav img, nav a, nav button {
     border: none;
     color: #fff;
     background-color: #0061ff;
+}
+
+/*------------ 
+     main
+------------ */
+
+.first-section-bgc {
+    background-color: #b4d0e7;
+    padding: 100px 0 ;
+}
+
+.first-section {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.col-1-left, .col-1-right {
+    float: left;
+}
+
+.col-1-left {
+    width: 30%;
+}
+
+.col-1-right {
+    width: 70%;
 }

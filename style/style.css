@@ -25,12 +25,18 @@ body {
 ------------ */
 
 nav {
-    background-color: aqua;
+    padding: 25px;
+    /* background-color: aqua; */
 }
 
-nav img, nav ul, nav ul li, nav button, .nav-left, .nav-right {
+nav img, nav ul, nav ul li, .nav-left, .nav-right, .btn-nav {
     display: inline-block;
     vertical-align: middle;
+}
+
+nav img, nav a, nav button {
+    text-decoration: none;
+    margin: 0 25px;
 }
 
 .nav-left, .nav-right {
@@ -39,4 +45,11 @@ nav img, nav ul, nav ul li, nav button, .nav-left, .nav-right {
 
 .nav-right {
     float: right;
+}
+
+.btn {
+    padding: 7px 20px;
+    border: none;
+    color: #fff;
+    background-color: #0061ff;
 }

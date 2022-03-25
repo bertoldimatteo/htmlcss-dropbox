@@ -36,6 +36,11 @@ h2 {
     max-width: 1080px;
     margin: auto;
 }
+
+hr {
+    margin-top: 10px;
+    border: 1px solid #d0d0d3;
+}
 /*------------ 
   typography
 ------------ */
@@ -162,11 +167,52 @@ nav img, nav a, nav button {
 .col-2-left, .col-2-middle, .col-2-right {
     float: left;
     width: 30%;
-    min-height: 800px;
-    background-color: aqua;
+    min-height: 1200px;
+    border: 2px solid #d0d0d3;
 }
 
 .col-2-middle {
     margin: 0 5%;
-    background-color: salmon;
+}
+
+.col-title {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.col-body {
+    padding: 30px 30px;
+}
+
+.col-description1 {
+    margin-bottom: 50px;
+}
+
+.col-description1 > * {
+    padding: 10px 0;
+}
+
+.col-description2 {
+    margin: 30px 0;
+}
+
+.col-body-btn {
+    text-align: center;
+    margin: 50px 0 30px 0;
+}
+
+.col-body-link {
+    padding-bottom: 30px;
+}
+
+.col-body-ul {
+    margin-top: 50px;
+}
+
+.col-body-ul h5 {
+    margin-bottom: 20px;
+}
+
+.col-body-ul li {
+    padding: 15px 0;
 }

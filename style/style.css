@@ -20,6 +20,14 @@ h2 {
     font-size: 48px;
 }
 
+h3 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
 .clearfix::after {
     content: "";
     display: block;
@@ -77,7 +85,7 @@ nav img, nav a, nav button {
 }
 
 .btn {
-    padding: 7px 20px;
+    padding: 10px 20px;
     border: none;
     color: #fff;
     background-color: #0061ff;
@@ -199,6 +207,10 @@ nav img, nav a, nav button {
 .col-body-btn {
     text-align: center;
     margin: 50px 0 30px 0;
+}
+
+.col-body-btn .btn {
+    width: 100%;
 }
 
 .col-body-link {

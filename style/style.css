@@ -82,6 +82,10 @@ nav img, nav a, nav button {
      main
 ------------ */
 
+/*------------ 
+   1section
+------------ */
+
 .large-section-bgc {
     background-color: #b4d0e7;
 }
@@ -130,6 +134,10 @@ nav img, nav a, nav button {
     margin: 50px 0 ;
 }
 
+/*------------ 
+   2section
+------------ */
+
 .title-plan {
     margin-top: 100px;
 
@@ -140,9 +148,25 @@ nav img, nav a, nav button {
 }
 
 .title-plan form {
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .title-plan form label {
     margin-right: 30px;
+}
+
+.col-2-section {
+    margin-top: 50px;
+}
+
+.col-2-left, .col-2-middle, .col-2-right {
+    float: left;
+    width: 30%;
+    min-height: 800px;
+    background-color: aqua;
+}
+
+.col-2-middle {
+    margin: 0 5%;
+    background-color: salmon;
 }

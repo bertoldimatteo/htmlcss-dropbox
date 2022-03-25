@@ -19,3 +19,24 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+/*------------ 
+     head
+------------ */
+
+nav {
+    background-color: aqua;
+}
+
+nav img, nav ul, nav ul li, nav button, .nav-left, .nav-right {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-left, .nav-right {
+    width: calc(100% -4px);
+}
+
+.nav-right {
+    float: right;
+}

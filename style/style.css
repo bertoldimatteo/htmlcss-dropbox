@@ -175,7 +175,7 @@ nav img, nav a, nav button {
 .col-2-left, .col-2-middle, .col-2-right {
     float: left;
     width: 30%;
-    min-height: 1200px;
+    min-height: 1100px;
     border: 2px solid #d0d0d3;
 }
 
@@ -198,6 +198,14 @@ nav img, nav a, nav button {
 
 .col-description1 > * {
     padding: 10px 0;
+}
+
+.col-description1 span {
+    color: #667683;
+}
+
+.col-body hr {
+    width: 20%;
 }
 
 .col-description2 {
@@ -227,4 +235,22 @@ nav img, nav a, nav button {
 
 .col-body-ul li {
     padding: 15px 0;
+    margin-left: 18px;
+    list-style: none;
 }
+
+.col-body-ul li:before {
+    content: '\2714\0020';
+    margin-left: -15px;
+    color: #0061ff;
+}
+
+.col-body-link a {
+    color: #0061ff;
+    font-weight: bold;
+}
+
+.col-description2, .col-body-link, .col-body-ul{
+    font-size: 15px;
+}
+

@@ -189,7 +189,7 @@ nav img, nav a, nav button {
 }
 
 .col-body {
-    padding: 32px 32px;
+    padding: 32px;
 }
 
 .col-description1 {
@@ -255,3 +255,12 @@ nav img, nav a, nav button {
     font-size: 14px;
 }
 
+.col-2-footer {
+    margin: 50px 0;
+    border: 2px solid #d0d0d3;
+    min-height: 300px;
+}
+
+.col-2-footer .col-description1 {
+    padding: 15px 40px;
+}

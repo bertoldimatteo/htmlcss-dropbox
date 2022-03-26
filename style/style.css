@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 41px;
 }
 
 h3 {
@@ -340,4 +340,23 @@ nav img, nav a, nav button {
     border: 1px solid black;
     background-color: #fff;
     color: #000;
+}
+
+/*------------ 
+   4section
+------------ */
+
+.col-sezione4-1, .col-sezione4-2 {
+    margin: 50px 0;
+}
+
+.col-sezione4-1 > *, .col-sezione4-2 > * {
+    float: left;
+    width: 30%;
+    min-height: 500px;
+    background-color: aqua;
+}
+
+.col-sezione4-1-middle, .col-sezione4-2-middle {
+    margin: 0% 5%;
 }

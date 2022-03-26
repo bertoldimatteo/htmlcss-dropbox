@@ -175,7 +175,7 @@ nav img, nav a, nav button {
 .col-2-left, .col-2-middle, .col-2-right {
     float: left;
     width: 30%;
-    min-height: 1100px;
+    min-height: 1200px;
     border: 2px solid #d0d0d3;
 }
 
@@ -189,7 +189,7 @@ nav img, nav a, nav button {
 }
 
 .col-body {
-    padding: 30px 30px;
+    padding: 32px 32px;
 }
 
 .col-description1 {
@@ -202,6 +202,7 @@ nav img, nav a, nav button {
 
 .col-description1 span {
     color: #667683;
+    font-size: 15px;
 }
 
 .col-body hr {
@@ -251,6 +252,6 @@ nav img, nav a, nav button {
 }
 
 .col-description2, .col-body-link, .col-body-ul{
-    font-size: 15px;
+    font-size: 14px;
 }
 

@@ -49,6 +49,7 @@ hr {
     margin-top: 10px;
     border: 1px solid #d0d0d3;
 }
+
 /*------------ 
   typography
 ------------ */
@@ -150,6 +151,11 @@ nav img, nav a, nav button {
 /*------------ 
    2section
 ------------ */
+
+
+.second-section {
+    margin-bottom: 150px;
+}
 
 .title-plan {
     margin-top: 100px;
@@ -288,4 +294,50 @@ nav img, nav a, nav button {
 
 .btn-col-2-footer {
     padding: 15px 70px;
+}
+
+/*------------ 
+   3section
+------------ */
+
+
+.third-section {
+    margin-bottom: 100px;
+}
+
+.col-third .col-third-left , .col-third .col-third-right {
+    float: left;
+}
+
+.col-third-left img {
+    width: 100%;
+}
+
+.col-third .col-third-left {
+    width: 60%;
+}
+
+.col-third .col-third-right {
+    width: 40%;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.col-third-right > * {
+    margin: 20px 0;
+}
+
+.col-third-right h3 {
+    font-size: 23px;
+}
+
+.col-third-right p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.col-third-right button {
+    border: 1px solid black;
+    background-color: #fff;
+    color: #000;
 }

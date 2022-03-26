@@ -185,7 +185,7 @@ nav img, nav a, nav button {
 
 .col-title {
     text-align: center;
-    padding: 10px 0;
+    padding-top: 10px;
 }
 
 .col-body {
@@ -258,9 +258,34 @@ nav img, nav a, nav button {
 .col-2-footer {
     margin: 50px 0;
     border: 2px solid #d0d0d3;
-    min-height: 300px;
 }
 
-.col-2-footer .col-description1 {
-    padding: 15px 40px;
+.col-2-footer .col-2-footer-description1 {
+    padding: 40px;
+}
+
+.title-and-button > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.title-and-button .button {
+    float: right;
+}
+
+.title-and-button h3 {
+    margin-bottom: 20px;
+}
+
+.col-2-footer-description1 h5 {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.col-2-footer-description1 span {
+    font-size: 14px;
+}
+
+.btn-col-2-footer {
+    padding: 15px 70px;
 }

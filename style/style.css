@@ -50,6 +50,9 @@ hr {
     border: 1px solid #d0d0d3;
 }
 
+.underline {
+    text-decoration: underline;
+}
 /*------------ 
   typography
 ------------ */
@@ -346,15 +349,21 @@ nav img, nav a, nav button {
    4section
 ------------ */
 
+.col-sezione4 > * {
+    margin-bottom: 20px;
+}
+
 .col-sezione4-1, .col-sezione4-2 {
     margin: 50px 0;
+}
+
+.col-sezione4-1 img, .col-sezione4-2 img {
+    width: 100%;
 }
 
 .col-sezione4-1 > *, .col-sezione4-2 > * {
     float: left;
     width: 30%;
-    min-height: 500px;
-    background-color: aqua;
 }
 
 .col-sezione4-1-middle, .col-sezione4-2-middle {

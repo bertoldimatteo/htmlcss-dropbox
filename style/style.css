@@ -375,9 +375,13 @@ nav a {
 
 .col-sezione4-footer {
     max-width: 600px;
-    margin: 150px 0 50px 0;
-}
+    margin-top: 150px;
+}    
 
 .col-sezione4-footer > * {
     padding-bottom: 30px;
 }
+
+/*------------ 
+   5section
+------------ */

@@ -53,6 +53,11 @@ hr {
 .underline {
     text-decoration: underline;
 }
+
+a {
+    color: #0061ff;
+    font-weight: bold;
+}
 /*------------ 
   typography
 ------------ */
@@ -95,6 +100,9 @@ nav img, nav a, nav button {
     background-color: #0061ff;
 }
 
+nav a {
+    color: #000;
+}
 /*------------ 
      main
 ------------ */
@@ -255,11 +263,6 @@ nav img, nav a, nav button {
     color: #0061ff;
 }
 
-.col-body-link a {
-    color: #0061ff;
-    font-weight: bold;
-}
-
 .col-description2, .col-body-link, .col-body-ul{
     font-size: 14px;
 }
@@ -368,4 +371,13 @@ nav img, nav a, nav button {
 
 .col-sezione4-1-middle, .col-sezione4-2-middle {
     margin: 0% 5%;
+}
+
+.col-sezione4-footer {
+    max-width: 600px;
+    margin: 150px 0 50px 0;
+}
+
+.col-sezione4-footer > * {
+    padding-bottom: 30px;
 }

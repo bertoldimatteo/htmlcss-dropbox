@@ -390,7 +390,7 @@ nav a {
 .col-sezione5 > * {
     float: left;
     font-size: 0;
-    margin: 50px 0;
+    margin: 50px 0 0 0;
 }
 
 .col-sezione5-left, .col-sezione5-right {
@@ -491,4 +491,30 @@ nav a {
 .col-sezione5-middle h4 {
     font-size: 20px;
     margin-top: 50px;
+}
+
+.col-sezione5-footer {
+    background-color: #b4d0e7;
+}
+
+.footer-sezione5 {
+    padding: 150px 0;
+}
+
+.footer-sezione5 > * {
+    display: inline-block;
+}
+
+.footer-sezione5 h2 {
+    vertical-align: top;
+    width: 55%;
+}
+
+.footer-sezione5 button {
+    vertical-align: top;
+    margin-top: 12px;
+    margin-left: 160px;
+    padding: 10px 70px;
+    background-color: #fff;
+    color: #000;
 }

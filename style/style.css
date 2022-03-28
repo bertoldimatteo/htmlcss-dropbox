@@ -498,7 +498,7 @@ nav a {
 }
 
 .footer-sezione5 {
-    padding: 150px 0;
+    padding: 130px 0;
 }
 
 .footer-sezione5 > * {
@@ -508,6 +508,7 @@ nav a {
 .footer-sezione5 h2 {
     vertical-align: top;
     width: 55%;
+    color: #61082b;
 }
 
 .footer-sezione5 button {
@@ -517,4 +518,25 @@ nav a {
     padding: 10px 70px;
     background-color: #fff;
     color: #000;
+}
+
+/*------------ 
+   6section
+------------ */
+
+.section-6 {
+    margin: 150px 0;
+}
+
+.section-6 h2 {
+    margin-bottom: 50px;
+}
+
+.section-6 h3 {
+    padding: 40px 0 ;
+    font-size: 20px;
+}
+
+.arrow-down {
+    float: right;
 }

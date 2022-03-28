@@ -58,6 +58,7 @@ a {
     color: #0061ff;
     font-weight: bold;
 }
+
 /*------------ 
   typography
 ------------ */
@@ -385,3 +386,51 @@ nav a {
 /*------------ 
    5section
 ------------ */
+
+.col-sezione5 > * {
+    float: left;
+    font-size: 0;
+    margin: 50px 0;
+}
+
+.col-sezione5-left, .col-sezione5-right {
+    width: 26vw;
+    background-color: aqua;
+}
+
+.col-sezione5-middle {
+    width: 47.3vw;
+    background-color: #f5f5f5;
+    min-height: 51.6vh;
+}
+
+.box-logo {
+    position: relative;
+    width: 13vw;
+    height: 13vw;
+    display: inline-block;
+}
+
+.logo {
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-1-bc {
+    background-color: #a2d39b;
+}
+
+.logo-2-bc {
+    background-color: #61082b;
+}
+
+.logo-3-bc {
+    background-color: #0093ce;
+}
+
+.logo-4-bc {
+    background-color: #ff1c1c;
+}

@@ -59,6 +59,11 @@ a {
     font-weight: bold;
 }
 
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
 /*------------ 
   typography
 ------------ */
@@ -540,3 +545,32 @@ nav a {
 .arrow-down {
     float: right;
 }
+
+/*------------ 
+    Footer
+------------ */
+
+.footer-col1, .footer-col2, .footer-col3, .footer-col4, .footer-col5 {
+    float: left;
+    width: calc(20% - 50px);
+    margin: 0 25px;
+}
+
+.footer-col ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.footer-col h3 {
+    margin-bottom: 30px;
+}
+
+footer hr {
+    border: 1px solid #fff;
+    width: 15%;
+    margin: 50px 0 50px 25px;
+}  
+
+.language {
+    margin-left: 25px;
+    padding-bottom: 50px;

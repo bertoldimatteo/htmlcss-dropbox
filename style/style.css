@@ -145,7 +145,6 @@ nav a {
 }
 
 .col-1-right {
-    display: inline-block;
     float: right;
     width: 67%;
 }
@@ -583,3 +582,4 @@ footer hr {
 .language {
     margin-left: 25px;
     padding-bottom: 50px;
+}

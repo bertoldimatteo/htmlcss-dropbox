@@ -53,6 +53,19 @@ h5 {
     margin: auto;
 }
 
+.btn {
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    background-color: #0061ff;
+}
+
+.btn:hover {
+    background-color: lightblue;
+    color: #000;
+    transition: 1s;
+}
+
 hr {
     margin-top: 10px;
     border: 1px solid #d0d0d3;
@@ -105,13 +118,6 @@ nav img, nav a, nav button {
 
 .nav-right {
     text-align: right;
-}
-
-.btn {
-    padding: 10px 20px;
-    border: none;
-    color: #fff;
-    background-color: #0061ff;
 }
 
 nav a {
